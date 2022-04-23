@@ -1,0 +1,22 @@
+.practiceflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+
+img { 
+    width: 300px;
+    height: 300px;
+}
+
+#grad {
+    background-image: linear-gradient(to bottom right, lightblue, rgb(0, 140, 255));
+}
