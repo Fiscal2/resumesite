@@ -1,3 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+  }  
+
+
 .practiceflex {
     display: flex;
     flex-direction: row;
@@ -17,6 +25,15 @@ img {
     height: 300px;
 }
 
+#img-logo {
+    height: 200px;
+    width: auto;
+}
+
 #grad {
     background-image: linear-gradient(to bottom right, lightblue, rgb(0, 140, 255));
 }
+li {
+    list-style-type: none;
+
+  }
