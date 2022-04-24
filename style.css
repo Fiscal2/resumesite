@@ -37,3 +37,15 @@ li {
     list-style-type: none;
 
   }
+
+  .navigationMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin: 5px
+  }
+
