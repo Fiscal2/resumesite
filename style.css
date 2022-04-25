@@ -53,7 +53,8 @@ li {
   .navigationMenu a {
     text-decoration: none;
     color: black;
-    padding-right: 8px;
+    padding-right: 10px;
+    display: block;
   }
 
   .navigationMenu ul{
@@ -61,4 +62,11 @@ li {
     flex-direction: row;
     padding: 5px;
     align-items: flex-start;
+    width: 200px;
+
+  }
+
+  li a:hover {
+    background-color: #555;
+    color: white;
   }
