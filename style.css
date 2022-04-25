@@ -54,3 +54,7 @@ li {
     flex-direction: row;
     text-decoration: none;
   }
+
+  .navigationMenu ul {
+    /* add here */
+  }
