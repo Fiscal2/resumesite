@@ -96,3 +96,7 @@ li {
   background-color: #0a04aa;
   color: white;
 }
+
+.active {
+  background-color: #0a04aa;
+}
