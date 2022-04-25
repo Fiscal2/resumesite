@@ -45,7 +45,6 @@ li {
     align-items: flex-end;
     padding: 5px;
     font-size: 17px;
-    color: black;
     margin: 5px
   }
 
@@ -53,8 +52,9 @@ li {
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    color: black;
   }
 
-  .navigationMenu ul {
+  .navigationMenu ul{
     /* add here */
   }
