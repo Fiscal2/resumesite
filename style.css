@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
   }  
 
 
@@ -43,9 +44,13 @@ li {
     flex-direction: row;
     align-items: flex-end;
     padding: 5px;
-    text-decoration: none;
     font-size: 17px;
     color: black;
     margin: 5px
   }
 
+  .navigationMenu a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
