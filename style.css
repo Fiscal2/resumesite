@@ -41,20 +41,22 @@ li {
 
   .navigationMenu {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    /* flex-direction: row;
+    align-items: flex-end; */
     padding: 5px;
     font-size: 17px;
     margin: 5px
   }
 
   .navigationMenu a {
-    display: flex;
-    flex-direction: row;
     text-decoration: none;
     color: black;
   }
 
   .navigationMenu ul{
-    /* add here */
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: flex-start;
+
   }
