@@ -31,7 +31,7 @@ img {
     width: auto;
 }
 
-#grad {
+#grad-blue {
     background-image: linear-gradient(to bottom right, lightblue, rgb(0, 140, 255));
 }
 
@@ -57,4 +57,8 @@ li {
     flex-direction: row;
     padding: 5px;
     align-items: flex-start;
+  }
+
+  #grad-black {
+    background-image: linear-gradient(to bottom right, rgb(45, 44, 44) black);
   }
