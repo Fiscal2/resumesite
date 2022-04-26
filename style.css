@@ -97,8 +97,12 @@ li {
   color: white;
 }
 
-.footer {
+
+#footer-position{
   position: fixed;
+}
+
+.footer {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -117,29 +121,6 @@ li {
 }
 
 .footer a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.footer-x {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;;
-  color: white;
-  text-align: center;
-}
-
-.footer-x a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.footer-x a:hover {
   background-color: #ddd;
   color: black;
 }
