@@ -37,7 +37,8 @@ img {
 }
 
 #gradBlue {
-    background-image: linear-gradient(to bottom right, lightblue, rgb(0, 140, 255));
+    /* background-image: linear-gradient(to bottom right, lightblue, rgb(0, 140, 255)); */
+    background-color: #4FACF7;
 }
 
 #gradBlack {
@@ -130,4 +131,14 @@ li {
   color: black;
 }
 
+.layeredWavesBlue {
+  background-image: url('assets/layered-waves-haikei');
+}
 
+.wave-spacer{
+  aspect-ratio: 900/360;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
