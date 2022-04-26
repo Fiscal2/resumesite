@@ -26,6 +26,11 @@ img {
     height: 300px;
 }
 
+#img-meme {
+    width: auto;
+    height: 450px;
+}
+
 #img-logo {
     height: 200px;
     width: auto;
@@ -124,3 +129,5 @@ li {
   background-color: #ddd;
   color: black;
 }
+
+
